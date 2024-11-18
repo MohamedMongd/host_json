@@ -1,0 +1,70 @@
+{
+  "representatives": [
+    {
+      "name": "John Doe",
+      "goodsReceived": [
+        {
+          "item": "Product A",
+          "quantity": 50,
+          "pricePerUnit": 10.0
+        },
+        {
+          "item": "Product B",
+          "quantity": 30,
+          "pricePerUnit": 15.0
+        }
+      ],
+      "sales": [
+        {
+          "item": "Product A",
+          "quantity": 20,
+          "totalSalesAmount": 200.0
+        },
+        {
+          "item": "Product B",
+          "quantity": 10,
+          "totalSalesAmount": 150.0
+        }
+      ],
+      "netProfit": 120.0,
+      "bonus": 20.0,
+      "warehouseStock": [
+        {
+          "item": "Product A",
+          "remainingQuantity": 30
+        },
+        {
+          "item": "Product B",
+          "remainingQuantity": 20
+        }
+      ],
+      "totalItemsInWarehouse": 50
+    },
+    {
+      "name": "Jane Smith",
+      "goodsReceived": [
+        {
+          "item": "Product C",
+          "quantity": 40,
+          "pricePerUnit": 20.0
+        }
+      ],
+      "sales": [
+        {
+          "item": "Product C",
+          "quantity": 10,
+          "totalSalesAmount": 200.0
+        }
+      ],
+      "netProfit": 80.0,
+      "bonus": 15.0,
+      "warehouseStock": [
+        {
+          "item": "Product C",
+          "remainingQuantity": 30
+        }
+      ],
+      "totalItemsInWarehouse": 30
+    }
+  ]
+}
